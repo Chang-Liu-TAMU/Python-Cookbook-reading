@@ -4,7 +4,7 @@
 # @File:4.6.Defining_Generator_functions_with_extra_states.py
 
 
-from _collections import deque
+from collections import deque
 
 class LineHisory:
     def __init__(self, lines, hislen=3):
