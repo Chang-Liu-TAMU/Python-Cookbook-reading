@@ -14,7 +14,10 @@
 # b.f()
 
 class Obj:
-    pass
+    def show(self, n):
+        print(f"hello{n}")
 
 a = Obj()
-print(type(Obj.__name__))
+x = getattr(a, "show")
+print(x)
+x(3)
