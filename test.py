@@ -61,7 +61,15 @@
 # z = g.send(20)
 # print(x, y, z)
 
-print(type(type))
-print(isinstance(type, type))
-print(isinstance(type, object))
-print(isinstance(object, type))
+# print(type(type))
+# print(isinstance(type, type))
+# print(isinstance(type, object))
+# print(isinstance(object, type))
+
+from inspect import signature
+
+def f(x:int , y: int):
+    pass
+
+sig = signature(f)
+d = sig.parameters
