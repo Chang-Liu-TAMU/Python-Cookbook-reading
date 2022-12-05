@@ -1,7 +1,7 @@
 # @Time: 2022/4/29 7:06
 # @Author: chang liu
 # @Email: chang_liu_tamu@gmail.com
-# @File:10.1.stopping_starting_a_thread.py
+# @File:12.1.stopping_starting_a_thread.py
 
 import time
 from threading import Thread
